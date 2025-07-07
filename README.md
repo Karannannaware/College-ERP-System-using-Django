@@ -1,36 +1,82 @@
-# College-ERP-System-using-Django
-A college management system built using Django framework. It is designed for interactions between students and teachers. Features include attendance, marks and time table.
+ College ERP System using Django
+A full-featured College Management System built using the Django framework, designed to streamline interactions between students and teachers. The system provides essential academic functionalities like attendance tracking, marks management, and timetable scheduling.
 
-Installation
-Python and Django need to be installed
+🚀 Features
+🧑‍🏫 Unified login for students and teachers
 
+📅 Timetable viewing
+
+📝 Attendance management (with date range)
+
+🧾 Marks tracking system
+
+🛠 Admin portal for managing:
+
+Students
+
+Teachers
+
+Departments
+
+Courses
+
+Classes
+
+🛠 Installation
+Ensure Python and Django are installed:
+
+bash
+Copy
+Edit
 pip install django
-Usage
-Go to the College-ERP folder and run
+▶️ Usage
+Navigate to the project folder and start the server:
 
+bash
+Copy
+Edit
+cd College-ERP
 python manage.py runserver
-Then go to the browser and enter the url http://127.0.0.1:8000/
+Now open your browser and go to:
+🔗 http://127.0.0.1:8000/
 
-Login
-The login page is common for students and teachers.
-The username is their name and password for everyone is 'project123'.
+🔐 Login Credentials
+Login Page is common for both students and teachers.
 
-Example usernames:
-student- 'samarth'
-teacher- 'trisila'
+Default Password: project123
 
-You can access the django admin page at http://127.0.0.1:8000/admin and login with username 'admin' and the above password.
+Role	Username
+Student	samarth
+Teacher	trisila
 
-Also a new admin user can be created using
+🛡 Django Admin Panel
+Access:
+🔗 http://127.0.0.1:8000/admin
 
+Default Admin:
+
+Username: admin
+
+Password: project123 (or your custom password)
+
+To create a new admin:
+
+bash
+Copy
+Edit
 python manage.py createsuperuser
-Users
-New students and teachers can be added through the admin page. A new user needs to be created for each.
+👨‍💼 Managing Users & Data
+Add new students and teachers via the Admin Panel.
 
-The admin page is used to modify all tables such as Students, Teachers, Departments, Courses, Classes etc.
+Modify tables like Students, Teachers, Courses, Departments, and Classes.
 
+Use the Attendance Date Range feature to regenerate attendance entries:
 
-Start Date: Start Date of Attendance period
-End Date: End Date of Attendance period
+Start Date = Beginning of attendance period
 
-This will delete all present attendance data and create new attendance objects for the given time range.
+End Date = End of attendance period
+
+⚠️ This will delete previous attendance data and generate new records for the selected range.
+
+📌 Project Type
+Full Stack | Web App | Django | College ERP System
