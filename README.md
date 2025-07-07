@@ -1,82 +1,27 @@
- College ERP System using Django
-A full-featured College Management System built using the Django framework, designed to streamline interactions between students and teachers. The system provides essential academic functionalities like attendance tracking, marks management, and timetable scheduling.
+# 🎓 College ERP System using Django
 
-🚀 Features
-🧑‍🏫 Unified login for students and teachers
+A full-featured **College Management System** built using the **Django framework**, designed to streamline interactions between **students and teachers**. The system includes modules for **attendance tracking**, **marks management**, and **timetable scheduling**.
 
-📅 Timetable viewing
+---
 
-📝 Attendance management (with date range)
+## 🚀 Features
 
-🧾 Marks tracking system
+- 🧑‍🏫 Unified login system for students and teachers  
+- 📅 Timetable viewing functionality  
+- 📝 Attendance management with custom date ranges  
+- 📊 Marks entry and viewing  
+- 🔐 Admin panel for managing:
+  - Students
+  - Teachers
+  - Departments
+  - Courses
+  - Classes
 
-🛠 Admin portal for managing:
+---
 
-Students
+## 🛠 Installation
 
-Teachers
+Make sure you have Python and Django installed.
 
-Departments
-
-Courses
-
-Classes
-
-🛠 Installation
-Ensure Python and Django are installed:
-
-bash
-Copy
-Edit
+```bash
 pip install django
-▶️ Usage
-Navigate to the project folder and start the server:
-
-bash
-Copy
-Edit
-cd College-ERP
-python manage.py runserver
-Now open your browser and go to:
-🔗 http://127.0.0.1:8000/
-
-🔐 Login Credentials
-Login Page is common for both students and teachers.
-
-Default Password: project123
-
-Role	Username
-Student	samarth
-Teacher	trisila
-
-🛡 Django Admin Panel
-Access:
-🔗 http://127.0.0.1:8000/admin
-
-Default Admin:
-
-Username: admin
-
-Password: project123 (or your custom password)
-
-To create a new admin:
-
-bash
-Copy
-Edit
-python manage.py createsuperuser
-👨‍💼 Managing Users & Data
-Add new students and teachers via the Admin Panel.
-
-Modify tables like Students, Teachers, Courses, Departments, and Classes.
-
-Use the Attendance Date Range feature to regenerate attendance entries:
-
-Start Date = Beginning of attendance period
-
-End Date = End of attendance period
-
-⚠️ This will delete previous attendance data and generate new records for the selected range.
-
-📌 Project Type
-Full Stack | Web App | Django | College ERP System
