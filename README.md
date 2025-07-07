@@ -57,6 +57,5 @@ End Date = End of the attendance period
 
 ⚠️ Regenerating attendance will delete existing records for the selected period.
 
-## Screenshot
-
+-----------------------------------------------------------------------------------
 
